@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from base.util import *
+from base.logger import *
 
 
 # Load a pretrained YOLO model (recommended for training)

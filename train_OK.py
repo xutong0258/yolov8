@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from base.util import *
+from base.logger import *
 
 # 加载一个预训练的 YOLO8n 模型
 model = YOLO("yolo8n.pt")
